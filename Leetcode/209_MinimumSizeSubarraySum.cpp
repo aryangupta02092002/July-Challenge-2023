@@ -8,6 +8,7 @@ public:
 
         while(j < nums.size()){
             sum += nums[j];
+            
             while(sum >= target){
                 sum -= nums[i];
                 mn = min(j - i + 1, mn);
