@@ -19,6 +19,7 @@ public:
         }
         return ans;
     }
+
     int maxConsecutiveAnswers(string a, int k) {
         int ans1 = solve(a, k, 'T');
         int ans2 = solve(a, k, 'F');
