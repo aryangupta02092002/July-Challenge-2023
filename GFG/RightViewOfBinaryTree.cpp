@@ -51,7 +51,8 @@ class Solution
         while(!q.empty()){
             int sz = q.size();
             for(int i=0; i<sz; i++){
-                Node *curr = q.front();     q.pop();
+                Node *curr = q.front();     
+                q.pop();
                 if(i == sz-1){
                     ans.push_back(curr->data);
                 }
